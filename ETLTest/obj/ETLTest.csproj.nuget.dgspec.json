@@ -1,0 +1,99 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\%Solutionsy\\ETLTest\\ETLTest\\ETLTest.csproj": {}
+  },
+  "projects": {
+    "D:\\%Solutionsy\\ETLTest\\ETLTest\\ETLTest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\%Solutionsy\\ETLTest\\ETLTest\\ETLTest.csproj",
+        "projectName": "ETLTest",
+        "projectPath": "D:\\%Solutionsy\\ETLTest\\ETLTest\\ETLTest.csproj",
+        "packagesPath": "C:\\Users\\ka-zhukov\\.nuget\\packages\\",
+        "outputPath": "D:\\%Solutionsy\\ETLTest\\ETLTest\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ka-zhukov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://packagesource": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "ETLBox": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "ETLBox.Csv": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "ETLBox.Json": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "ETLBox.SqlServer": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.6, )"
+            },
+            "WireMock.Net": {
+              "target": "Package",
+              "version": "[1.4.33, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
